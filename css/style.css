@@ -130,7 +130,6 @@ section{
 
 .container > .colonne{
     display: flex;
-    width: 25%;
 }
 
 .posto{

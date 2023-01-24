@@ -14,7 +14,7 @@
 /*css*/
 
 .top{
-    background-color: aquamarine;
+    background-color:rgb(37, 94, 233);
     padding: 10px;
 
 }
@@ -23,9 +23,6 @@
 
 .top > .container{
     display: flex;
-    justify-content: center;
-    background-color: yellow;
-    height: auto;
     width: 1170px;
     margin: auto;
 
@@ -36,7 +33,7 @@
     padding: 15px;
 }
 
-.logo.tratteggiato{
+.logo{
     width: 20%;
 }
 
@@ -47,16 +44,20 @@
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
 li{
-    display: inline-block;
-    margin: 0px 10px;
+    padding: 0px 10px;
     
 }
 
 .login{
     width: 20%;
     text-align: right;
+    align-items: flex-end;
 }
 
 /*QUI COMINCIA HEADER BOT*/
@@ -130,6 +131,7 @@ section{
 
 .container > .colonne{
     display: flex;
+    width: 75%;
 }
 
 .posto{
@@ -140,8 +142,8 @@ section{
 
 .altro{
     background-color: darkcyan;
-    width: 20%;
     margin: 5px 0px 20px;
+    width: 25%;
     
 }
 
@@ -172,4 +174,8 @@ section{
     background-color: antiquewhite;
     padding: 5px;
     margin: 10px 0px;
+}
+
+.bottoncinibianchi{
+    background-color: white;
 }

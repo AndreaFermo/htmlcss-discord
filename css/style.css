@@ -128,7 +128,7 @@ section{
     margin:  auto;
 }
 
-.flex-box > .container{
+.container > .colonne{
     display: flex;
     width: 25%;
 }

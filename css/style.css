@@ -139,7 +139,6 @@ section{
   
     width: 1170px;
     margin: auto;
-    background-color: lightgreen;
     text-align: center;
     
 }
@@ -164,6 +163,16 @@ section{
     font-size: 20px;
 }
 
+h3{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    width: 30%;
+    margin: auto;
+}
+
+.riscarica{
+    padding: 20px;
+}
 
 
 
@@ -230,6 +239,9 @@ section{
     margin: 10px 0px;
 }
 
+
+/*bottoni*/
+
 .bottoncinibianchi{
     background-color: white;
     color: black;
@@ -240,6 +252,14 @@ section{
 
 .bottoncinineri{
     background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 10px;
+    border: none;
+}
+
+.bottoncinicelesti{
+    background-color: rgb(114, 137, 218);
     color: white;
     border-radius: 15px;
     padding: 8px 10px;

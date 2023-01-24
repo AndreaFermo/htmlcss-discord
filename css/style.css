@@ -90,7 +90,7 @@ h1 {
     font-size: 50px;
 }
 
-p {
+header p {
     color: white;
     padding-bottom: 20px;
     font-size: 20px;
@@ -121,27 +121,51 @@ section{
 
 
 .immagine{
-    height: 400px;
+   
     width: 60%;
-    background-color: lightblue;
+    
 }
 
 .descrizione{
-    height: 400px;
+
     width: 40%;
-    background-color: green;
 }
 
 .grigio{
-    background-color: lightgray;
+    background-color: rgb(246, 246, 246);
 }
 
 .contenuti{
-    height: 500px;
+  
     width: 1170px;
     margin: auto;
     background-color: lightgreen;
+    text-align: center;
+    
 }
+
+.descrizione h2{
+    padding: 30px;
+    font-size: 40px;
+}
+
+.descrizione p{
+    padding: 30px;
+    font-size: 20px;
+}
+
+.contenuti h2{
+    padding: 30px;
+    font-size: 40px;
+}
+
+.contenuti p{
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+
 
 
 /*QUI COMINCIA FOOTER*/

@@ -121,7 +121,7 @@ section{
     margin-bottom: 3px;
 }
 
-.flex-box{
+.footertop > .container{
     display: flex;
     height: 500px;
     width: 1170px;

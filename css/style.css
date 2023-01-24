@@ -13,13 +13,13 @@
 
 /*css*/
 
+
+/*QUI COMINCIA HEADER TOP*/
 .top{
     background-color:rgb(37, 94, 233);
     padding: 10px;
 
 }
-
-/*QUI COMINCIA HEADER TOP*/
 
 .top > .container{
     display: flex;
@@ -67,17 +67,44 @@ li{
 
 .bot{
     display: flex;
-    background-color: blue;
     justify-content: center;
-    padding: 40px 0px;
+    padding: 40px 0px 40px;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
 
 .bot > .container{
-    height: 400px;
-    width: 800px;
-    background-color: pink;
 
+    text-align: center;
+    padding-bottom: 40px;
+    width: 1170px;
+    
+
+}
+
+h1 {
+    color: white;
+    padding: 100px 0px 30px 0px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.funzioni > span {
+    font-size: 30px;
+    padding: 5px 20px;
+    margin: 5px 10px;
+}
+
+.scarica::before{
+    content: "\2193";
+    padding-right: 6px;
 }
 
 /*QUI COMINCIA MAIN*/
@@ -181,6 +208,16 @@ section{
 
 .bottoncinibianchi{
     background-color: white;
+    color: black;
     border-radius: 15px;
     padding: 5px 8px;
+    border: none;
+}
+
+.bottoncinineri{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 10px;
+    border: none;
 }

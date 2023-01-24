@@ -50,7 +50,7 @@ a{
 }
 
 li{
-    padding: 0px 10px;
+    padding: 5px 10px;
     
 }
 
@@ -59,6 +59,7 @@ li{
     text-align: right;
     align-items: flex-end;
 }
+
 
 /*QUI COMINCIA HEADER BOT*/
 
@@ -178,4 +179,5 @@ section{
 
 .bottoncinibianchi{
     background-color: white;
+    border-radius: 10px;
 }
